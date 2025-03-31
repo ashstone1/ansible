@@ -21,10 +21,6 @@ rpm-build
 .vscode/
 # Mac OS X stuff...
 .DS_Store
-# manpage build stuff...
-docs/man/man1/ansible*.1
-docs/man/man1/ansible*.1.asciidoc.in
-docs/man/man3/*
 # Sublime stuff
 *.sublime-project
 *.sublime-workspace
@@ -32,9 +28,6 @@ docs/man/man3/*
 docs/docsite/_build
 docs/docsite/*.html
 docs/docsite/htmlout
-docs/docsite/rst/conf.py
-docs/docsite/rst/index.rst
-docs/docsite/rst/cli/ansible-*.rst
 docs/docsite/rst/cli/ansible.rst
 docs/docsite/rst/dev_guide/collections_galaxy_meta.rst
 docs/docsite/rst/dev_guide/testing/sanity/index.rst.new
